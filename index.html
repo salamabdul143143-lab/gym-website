@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitZone Gym</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">FitZone</div>
+      <nav class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#classes">Classes</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cta-btn" id="joinBtn">Join Now</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div>
+          <p class="eyebrow">Welcome to FitZone</p>
+          <h1>Build strength, confidence, and a healthier you.</h1>
+          <p>From weight training to yoga, our gym offers coaching, classes, and community for every fitness level.</p>
+          <div class="hero-actions">
+            <button class="primary-btn" id="startBtn">Start Training</button>
+            <button class="secondary-btn" id="tourBtn">Take a Tour</button>
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001aa?auto=format&fit=crop&w=800&q=80" alt="Gym workout" />
+        </div>
+      </div>
+    </section>
+
+    <section class="stats container">
+      <div class="stat-card">
+        <h2>12+</h2>
+        <p>Years of experience</p>
+      </div>
+      <div class="stat-card">
+        <h2>50+</h2>
+        <p>Weekly classes</p>
+      </div>
+      <div class="stat-card">
+        <h2>30+</h2>
+        <p>Certified trainers</p>
+      </div>
+    </section>
+
+    <section class="classes-section" id="classes">
+      <div class="container section-header">
+        <h2>Our Top Classes</h2>
+        <p>Choose your path: strength, flexibility, or high-energy cardio.</p>
+      </div>
+      <div class="container cards-grid">
+        <article class="card">
+          <h3>Strength Training</h3>
+          <p>Build muscle, improve endurance, and gain power with guided weightlifting sessions.</p>
+        </article>
+        <article class="card">
+          <h3>HIIT</h3>
+          <p>Burn calories fast with high-intensity interval training sessions designed for all levels.</p>
+        </article>
+        <article class="card">
+          <h3>Yoga & Mobility</h3>
+          <p>Stretch, recover, and increase mobility with expert-led yoga classes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="trainers-section" id="trainers">
+      <div class="container section-header">
+        <h2>Meet the Trainers</h2>
+        <p>Focused coaching from our certified, motivating fitness specialists.</p>
+      </div>
+      <div class="container trainers-grid">
+        <div class="trainer-card">
+          <div class="trainer-avatar">A</div>
+          <h3>Amanda</h3>
+          <p>Strength Coach</p>
+        </div>
+        <div class="trainer-card">
+          <div class="trainer-avatar">J</div>
+          <h3>Jason</h3>
+          <p>HIIT Specialist</p>
+        </div>
+        <div class="trainer-card">
+          <div class="trainer-avatar">M</div>
+          <h3>Mia</h3>
+          <p>Yoga Instructor</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container section-header">
+        <h2>Contact FitZone</h2>
+        <p>Ready to take the next step? Send us a message and we’ll get back to you.</p>
+      </div>
+      <div class="container contact-grid">
+        <form id="contactForm" class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required />
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required />
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us what you're interested in" required></textarea>
+          <button type="submit" class="primary-btn">Send Message</button>
+          <p class="form-feedback" id="feedback"></p>
+        </form>
+        <div class="contact-info">
+          <h3>Visit Us</h3>
+          <p>123 FitZone Avenue<br />Springfield, USA</p>
+          <h3>Hours</h3>
+          <p>Mon - Fri: 6am - 10pm<br />Sat - Sun: 8am - 8pm</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; 2026 FitZone Gym. All rights reserved.</p>
+      <p>Built for your fitness journey.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
